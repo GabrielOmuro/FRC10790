@@ -5,7 +5,7 @@ function NavbarPQNE() {
   return (
     <>
       <div className="navbarPQNE">
-        <img className="logoPQNE" src="FRC10790/src/images/logo.jpg" alt="imagem não encontrada" />
+        <img className="logoPQNE" src="src/images/logo.jpg" alt="imagem não encontrada" />
         <Link className="LinkPQNE" to="/">
           Inicio
         </Link>
