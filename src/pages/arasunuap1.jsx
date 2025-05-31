@@ -8,7 +8,7 @@ function Arasunuap1() {
       <Rodape />
       <header className="containerHeader">
         <div className="navbar">
-          <img className="logo" src="FRC10790/src/images/logo.jpg" alt="imagem não encontrada" />
+          <img className="logo" src="src/assets/images/logo.jpg" alt="imagem não encontrada" />
           <Link className="navLink" to="/">
             Início
           </Link>
