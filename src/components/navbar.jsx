@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        <img className="logo" src="../images/logo.jpg" alt="imagem não encontrada" />
+        <img className="logo" src="src/images/logo.jpg" alt="imagem não encontrada" />
         <Link className="Link" to="/seasonChallenge">
           Desafio da Temporada/Processo Seletivo
         </Link>
