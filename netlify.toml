@@ -1,4 +1,3 @@
 [build]
-[build]
 base = "/opt/build/repo/https://github.com/GabrielOmuro/FRC10790.git"
 publish = "dist", "public"
