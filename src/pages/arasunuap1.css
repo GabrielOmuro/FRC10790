@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8fafc;
+}
+
+.containerHeader {
+  background-color: #e4eef9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+  position: sticky;
+  top: -100;
+  z-index: 0;
+    margin-bottom: 20px;
+  bottom: 0;
+}
+
+.navbar {
+  background-color: #e4eef9;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 110vh;
+}
+
+.navLink {
+  text-transform: uppercase;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s;
+  margin-left: 50px;
+}
+
+.navLink::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #2563eb;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.navLink:hover {
+  color: #2563eb;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.logo {
+  height: 100px;
+  display: inline-block;
+}
+
+.divContent{
+    color: black;
+  background-color:  #e4eef9;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 60%;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+
+}
+
+.containerEspacamentoArasunuap1 {
+  padding: 1.5rem;
+  width: 90%;
+  height: 10%;
+  font-size: 1.1rem;
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+/* Site feito 100% por Gabriel Akira Omuro, foi difícil mas como bukowski disse: Se vai tentar vá até o fim, caso contrário, nem comece.

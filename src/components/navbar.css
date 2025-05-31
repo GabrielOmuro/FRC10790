@@ -1,0 +1,50 @@
+.navbar {
+  background-color: #e4eef9;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 110;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.Link {
+  text-transform: uppercase;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s;
+  margin-left: 30px;
+}
+
+.Link::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #2563eb;
+  transition: width 0.3s;
+  position: absolute;
+  left: 0;
+}
+
+.Link:hover {
+  color: #2563eb;
+}
+
+.Link:hover::after {
+  width: 100%;
+}
+
+.logo {
+  height: 100px;
+  display: inline-block;
+}
+
+/* Site feito 100% por Gabriel Akira Omuro, foi difícil mas como bukowski disse: Se vai tentar vá até o fim, caso contrário, nem comece.*/

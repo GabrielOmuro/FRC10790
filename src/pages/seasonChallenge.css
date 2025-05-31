@@ -1,0 +1,85 @@
+.mainDiv {
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 600px;
+  font-size: 1.1rem;
+  background-color: #e4eef9;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.mainSmoke {
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 50%;
+  font-size: 1.1rem;
+  background-color: #e4eef9;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.mainTeleop {
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 50%;
+  font-size: 1.1rem;
+  background-color: #e4eef9;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 230%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.mainEndgame {
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 50%;
+  font-size: 1.1rem;
+  background-color: #e4eef9;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 330%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+
+.containerEspacamentoSeasonChallenge {
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 10%;
+  font-size: 1.1rem;
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 366%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
