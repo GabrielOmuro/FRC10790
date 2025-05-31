@@ -5,7 +5,7 @@ function NavbarPQNI() {
   return (
     <>
       <div className="navbarPQNI">
-        <img className="logoPQNI" src="public/images/logo.jpg" alt="imagem não encontrada" />
+        <img className="logoPQNI" src="../public/images/logo.jpg" alt="imagem não encontrada" />
         <Link className="LinkPQNI" to="/">
           Inicio
         </Link>
