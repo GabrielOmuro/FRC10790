@@ -1,12 +1,12 @@
 import "./arasunuap1.css";
 import Rodape from "../components/rodape";
 import { Link } from "react-router-dom";
-import logo from "../../public/images/logo.jpg";
-import arasunuap1 from "../../public/images/arasunuap1.webp";
-import materials from "../../public/images/materials.jpg";
-import fluxogramaSC from "../../public/images/fluxogramaSC.jpg";
-import shooterAlgorithm from "../../public/images/shooterAlgorithm.png";
-import algorithmWH from "../../public/images/algorithmWH.png"
+import logo from "/images/logo.jpg";
+import arasunuap1 from "/images/arasunuap1.webp";
+import materials from "/images/materials.jpg";
+import fluxogramaSC from "/images/fluxogramaSC.jpg";
+import shooterAlgorithm from "/images/shooterAlgorithm.png";
+import algorithmWH from "/images/algorithmWH.png"
 
 function Arasunuap1() {
   return (
