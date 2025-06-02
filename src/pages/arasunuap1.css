@@ -11,7 +11,7 @@ body {
   position: sticky;
   top: -100;
   z-index: 0;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
   bottom: 0;
 }
 
@@ -62,23 +62,123 @@ body {
   display: inline-block;
 }
 
-.divContent{
-    color: black;
-  background-color:  #e4eef9;
+.arasunuap1Image {
+  width: 65%;
+  height: 65%;
+  border-radius: 5px;
+}
+
+.divContent {
+  color: black;
+  background-color: #e4eef9;
   padding: 1.5rem;
   margin: 1rem auto;
   width: 90%;
-  height: 60%;
+  height: 85%;
   font-size: 1.1rem;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   align-items: center;
+}
 
+.robotProcess {
+  color: black;
+  background-color: #e4eef9;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 50%;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.materials {
+  color: black;
+  background-color: #e4eef9;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 130%;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.algorithmsShooter {
+  color: black;
+  background-color: #e4eef9;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 90%;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 620%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.algorithmsSCS {
+  color: black;
+  background-color: #e4eef9;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 150%;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 470%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.algorithmWH{
+  color: black;
+  background-color: #e4eef9;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 190%;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 800%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.algorithmWHimg{
+  width: 800px;
+  height: 847px;
 }
 
 .containerEspacamentoArasunuap1 {
@@ -90,7 +190,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
   position: absolute;
-  top: 500%;
+  top: 900%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
