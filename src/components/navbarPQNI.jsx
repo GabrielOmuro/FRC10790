@@ -1,11 +1,12 @@
 import "./navbarPQNI.css";
 import { Link } from "react-router-dom";
+import logo from "../../public/images/logo.jpg"
 
 function NavbarPQNI() {
   return (
     <>
       <div className="navbarPQNI">
-        <img className="logoPQNI" src="src/assets/images/logo.jpg" alt="imagem não encontrada" />
+        <img className="logoPQNI" src={logo} alt="imagem não encontrada" />
         <Link className="LinkPQNI" to="/">
           Inicio
         </Link>

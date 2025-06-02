@@ -1,6 +1,7 @@
 import "./arasunuap1.css";
 import Rodape from "../components/rodape";
 import { Link } from "react-router-dom";
+import logo from "../../public/images/logo.jpg"
 
 function Arasunuap1() {
   return (
@@ -8,7 +9,7 @@ function Arasunuap1() {
       <Rodape />
       <header className="containerHeader">
         <div className="navbar">
-          <img className="logo" src="src/assets/images/logo.jpg" alt="imagem não encontrada" />
+          <img className="logo" src={logo} alt="imagem não encontrada" />
           <Link className="navLink" to="/">
             Início
           </Link>

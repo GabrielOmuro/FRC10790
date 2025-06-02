@@ -1,9 +1,10 @@
 import React from 'react';
+import video from "../../public/images/gameReview.mp4"
 
 const VideoPlayer = () => {
   return (
     <video width="600" controls>
-      <source src="src/images/gameReview.mp4" type="video/mp4" />
+      <source src={video} type="video/mp4" />
     </video>
   );
 };
