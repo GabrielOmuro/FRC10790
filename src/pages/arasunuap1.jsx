@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "/images/logo.jpg";
 import arasunuap1 from "/images/arasunuap1.webp";
 import materials from "/images/materials.JPG";
-import fluxogramaSC from "/images/fluxogramaSC.jpg";
+import fluxogramaSC from "/images/fluxogramaSC.JPG";
 import shooterAlgorithm from "/images/shooterAlgorithm.png";
 import algorithmWH from "/images/algorithmWH.png"
 
