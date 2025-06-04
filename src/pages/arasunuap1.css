@@ -76,6 +76,7 @@ body {
   width: 90%;
   height: fit-content;
   font-size: 1.1rem;
+  font-family: Poppins;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
   position: absolute;
