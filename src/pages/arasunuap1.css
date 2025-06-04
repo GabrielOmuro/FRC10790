@@ -7,7 +7,7 @@ body {
 .containerHeader {
   background-color: #e4eef9;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 1rem 0;
+  padding: -10px;
   position: sticky;
   top: -100;
   z-index: 0;
@@ -71,10 +71,10 @@ body {
 .divContent {
   color: black;
   background-color: #e4eef9;
-  padding: 1.5rem;
+  padding: -10px;
   margin: 1rem auto;
   width: 90%;
-  height: 85%;
+  height: fit-content;
   font-size: 1.1rem;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
@@ -89,10 +89,10 @@ body {
 .robotProcess {
   color: black;
   background-color: #e4eef9;
-  padding: 1.5rem;
+  padding: -10px;
   margin: 1rem auto;
   width: 90%;
-  height: 50%;
+  height: fit-content;
   font-size: 1.1rem;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
@@ -107,10 +107,10 @@ body {
 .materials {
   color: black;
   background-color: #e4eef9;
-  padding: 1.5rem;
+  padding: -10px;
   margin: 1rem auto;
   width: 90%;
-  height: 130%;
+  height: fit-content;
   font-size: 1.1rem;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
@@ -125,10 +125,10 @@ body {
 .algorithmsShooter {
   color: black;
   background-color: #e4eef9;
-  padding: 1.5rem;
+  padding: -10px;
   margin: 1rem auto;
   width: 90%;
-  height: 90%;
+  height: fit-content;
   font-size: 1.1rem;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
@@ -143,10 +143,10 @@ body {
 .algorithmsSCS {
   color: black;
   background-color: #e4eef9;
-  padding: 1.5rem;
+  padding: -10px;
   margin: 1rem auto;
   width: 90%;
-  height: 150%;
+  height: fit-content;
   font-size: 1.1rem;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
@@ -161,10 +161,10 @@ body {
 .algorithmWH{
   color: black;
   background-color: #e4eef9;
-  padding: 1.5rem;
+  padding: -10px;
   margin: 1rem auto;
   width: 90%;
-  height: 190%;
+  height: fit-content;
   font-size: 1.1rem;
   border-radius: 8px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);

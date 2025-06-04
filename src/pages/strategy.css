@@ -1,8 +1,8 @@
 .divStrategy{
-  padding: 1.5rem;
+  padding: -10%;
   margin: 1rem auto;
   width: 90%;
-  height: 40%;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #e4eef9;
   border-radius: 8px;
@@ -16,10 +16,10 @@
 }
 
 .divStrategySC{
-  padding: 1.5rem;
+  padding: -10%;
   margin: 1rem auto;
   width: 90%;
-  height: 80%;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #e4eef9;
   border-radius: 8px;
@@ -33,10 +33,10 @@
 }
 
 .divStrategyTO{
-  padding: 1.5rem;
+  padding: -10%;
   margin: 1rem auto;
   width: 90%;
-  height: 80%;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #e4eef9;
   border-radius: 8px;
@@ -50,10 +50,10 @@
 }
 
 .divStrategyEG{
-  padding: 1.5rem;
+  padding: -10%;
   margin: 1rem auto;
   width: 90%;
-  height: 50%;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #e4eef9;
   border-radius: 8px;
@@ -67,16 +67,33 @@
 }
 
 .containerEspacamentoStrategy {
-  padding: 1.5rem;
+  padding: -10%;
   margin: 1rem auto;
   width: 90%;
-  height: 10%;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #ffff;
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
   position: absolute;
   top: 366%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.containerEspacamentoStrategy {
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 90%;
+  height: 1px;
+  font-size: 1.1rem;
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 370%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;

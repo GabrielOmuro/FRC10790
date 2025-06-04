@@ -1,8 +1,8 @@
 .mainDiv {
-  padding: 1.5rem;
+  padding: -10px;
   margin: 1rem auto;
   width: 90%;
-  height: 600px;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #e4eef9;
   border-radius: 8px;
@@ -16,10 +16,10 @@
 }
 
 .mainSmoke {
-  padding: 1.5rem;
+  padding: -10px;
   margin: 1rem auto;
   width: 90%;
-  height: 50%;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #e4eef9;
   border-radius: 8px;
@@ -33,10 +33,10 @@
 }
 
 .mainTeleop {
-  padding: 1.5rem;
+  padding: -10%;
   margin: 1rem auto;
   width: 90%;
-  height: 50%;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #e4eef9;
   border-radius: 8px;
@@ -50,10 +50,10 @@
 }
 
 .mainEndgame {
-  padding: 1.5rem;
+  padding: -10px;
   margin: 1rem auto;
   width: 90%;
-  height: 70%;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #e4eef9;
   border-radius: 8px;
@@ -68,7 +68,7 @@
 
 
 .containerEspacamentoSeasonChallenge {
-  padding: 1.5rem;
+  padding: -10px;
   margin: 1rem auto;
   width: 90%;
   height: 10%;
@@ -77,7 +77,7 @@
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
   position: absolute;
-  top: 466%;
+  top: 436%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;

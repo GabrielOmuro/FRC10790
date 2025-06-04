@@ -3,10 +3,10 @@
 }
 
 .containerMain {
-  padding: 1.5rem;
+  padding: -10%;
   margin: 1rem auto;
   width: 90%;
-  height: 50%;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #e4eef9;
   border-radius: 8px;
@@ -20,10 +20,10 @@
 }
 
 .containerMain2 {
-  padding: 1.5rem;
+  padding: -10%;
   margin: 1rem auto;
   width: 90%;
-  height: 50%;
+  height: fit-content;
   font-size: 1.1rem;
   background-color: #e4eef9;
   border-radius: 8px;
